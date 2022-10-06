@@ -1,0 +1,104 @@
+@keyframes show{
+0%{
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+
+.scheme{
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    z-index: -1;
+  }
+
+  &__wrapper{
+    position: relative;
+  }
+
+  &__data{
+    position: absolute;
+    font-family: 'Arial Bold';
+    display: flex;
+    text-align: center;
+    opacity:0; 
+    transition: 1s;
+    animation: show 3s 1; 
+    animation-fill-mode: forwards;
+
+    &_length{
+      font-size: 20px;
+      bottom: -10px;
+      left: -40px;
+      z-index: 5;
+    }
+
+    &_width{
+      font-size: 20px;
+      bottom: -10px;
+      right: -40px;
+      z-index: 5;
+    }
+
+    &_height{
+      max-width: 80px;
+      font-size: 20px;
+      right: -70px;
+      bottom: 60px;
+      z-index: 5;
+    }
+
+    &_weight{
+      
+      &_left{
+        font-size: 14px;
+        left: 20%;
+        top: 40%;
+        z-index: 5;
+
+      svg{
+        margin-right: 5px;
+        margin-top: -5px;
+        }
+      }
+
+      &_right{
+        font-size: 14px;
+        background-color: #ffffff;
+        right: 42%;
+        top: 35%;
+        z-index: 5;
+
+        svg{
+        margin-right: 5px;
+        margin-top: -5px;
+        }
+
+      }
+
+    }
+
+    &_volume{
+      font-size: 14px;
+      right: 20%;
+      top: 40%;
+      z-index: 5;
+    }
+
+    &_boxes{
+      font-size: 14px;
+      top: -30px;
+      right: 42%;
+      z-index: 5;
+    }
+    
+  }
+}
+
+
