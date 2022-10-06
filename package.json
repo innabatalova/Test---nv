@@ -1,0 +1,37 @@
+{
+  "name": "test---nv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innabatalova/Test---nv.git"
+  },
+  "author": "Inna Batalova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innabatalova/Test---nv/issues"
+  },
+  "homepage": "https://github.com/innabatalova/Test---nv#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^7.0.1",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

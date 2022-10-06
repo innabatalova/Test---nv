@@ -1,0 +1,11 @@
+.data{
+  display: flex;
+  width: calc(100% - 30px);
+  margin: auto;
+  
+  &__title{
+  font-family: 'Arial Bold';
+  font-size: 20;
+}
+
+}
